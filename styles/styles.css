@@ -1,33 +1,17 @@
-.name h1 {
-  font-size: 10vh;
+.body {
   font-family: helvetica;
+}
+
+/* NAME */
+.name h1 {
+  font-size: 50px;
   color: #141414;
-  font-weight: normal;
-  letter-spacing: 1.5vh;
-  margin-bottom: -4vh;
+  font-weight: lighter;
 }
 
-.description {
-    font-family: helvetica;
-    width: 42vw;
-    padding-top: 27vh;
-}
-
+/* INTRO */
 .description p {
-    font-size: 3.5vh;
-    width: 51vw;
-    margin-top: -16vh;
-    margin-left: 18vh;
-}
-
-.info {
-  display: flex;
-  justify-content: space-around;
-}
-
-.name {
-  margin-left:-13vh;
-  margin-top:-3vh;
-      position: fixed;
-    left: 20vh;
+  font-size: 21px;
+  width: 44%;
+  font-weight: lighter;
 }
