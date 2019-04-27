@@ -35,10 +35,12 @@
 .workSection h2 {
   font-size: 1.2rem;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .workSection p {
   font-weight:lighter;
+  text-decoration: none;
 }
 
 .my-col {
