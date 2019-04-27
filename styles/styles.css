@@ -4,7 +4,7 @@
   font-weight: normal;
 }
 
-/* INTRO */
+/* INTRO SECTION */
 .description p {
   font-size: 21px;
   width: 68%;
@@ -21,7 +21,7 @@
   align-items: center;
 }
 
-/* LINKS */
+/* NAV BAR  */
   nav {
   display:flex;
   font-weight:bold;
@@ -31,8 +31,15 @@
   margin-right:36px;
 }
 
+/* work section grid */
+.workSection h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 
-
+.workSection p {
+  font-weight:lighter;
+}
 
 .my-col {
   border:1px solid red
