@@ -1,8 +1,7 @@
 /* NAME */
-.name h1 {
-  font-size: 50px;
-  color: #141414;
-  font-weight: lighter;
+  header h1 {
+  font-size: 40px;
+  font-weight: normal;
 }
 
 /* INTRO */
@@ -14,12 +13,12 @@
 
 /* HEADER */
  header {
-    width: 100%;
-    /* position: fixed; */
-    z-index: 10;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  /* position: fixed; */
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* LINKS */
