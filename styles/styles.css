@@ -7,7 +7,7 @@
 /* INTRO */
 .description p {
   font-size: 21px;
-  width: 44%;
+  width: 68%;
   font-weight: lighter;
 }
 
@@ -23,13 +23,17 @@
 
 /* LINKS */
   nav {
-/*  position: absolute;
-  top: 0;
-  right: 0;*/
   display:flex;
   font-weight:bold;
 }
 
 .link {
   margin-right:36px;
+}
+
+
+
+
+.my-col {
+  border:1px solid red
 }
