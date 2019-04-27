@@ -1,3 +1,5 @@
+@import "todolist.css";
+
 /* NAME */
   header h1 {
   font-size: 40px;
@@ -67,8 +69,7 @@
   border:1px solid red
 }
 
-
 /* video mockup */
  video {
-  height:125vh;
+  height:775px;
  }
