@@ -14,17 +14,19 @@
 
 /* HEADER */
  header {
-  width: 100%;
-  padding-top: 30px;
-  position: fixed;
-  z-index: 10;
+    width: 100%;
+    /* position: fixed; */
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* LINKS */
 .links {
-  position: absolute;
+/*  position: absolute;
   top: 0;
-  right: 0;
+  right: 0;*/
   display:flex;
   font-weight:bold;
 }
