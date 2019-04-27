@@ -66,3 +66,9 @@
 .my-col {
   border:1px solid red
 }
+
+
+/* video mockup */
+ video {
+  height:125vh;
+ }
