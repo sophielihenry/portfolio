@@ -19,6 +19,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 36px;
+}
+
+/* MAIN SECTION */
+  main {
+    margin-top: 55px;
+  }
+
+/* container of index page */
+.wrapper {
+  width: 90vw;
+  margin: auto;
 }
 
 /* NAV BAR  */
@@ -32,6 +44,11 @@
 }
 
 /* work section grid */
+.container {
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 66px;
+}
 .workSection h2 {
   font-size: 1.2rem;
   font-weight: bold;
@@ -43,6 +60,9 @@
   text-decoration: none;
 }
 
+.project {
+  padding-right: 10px;
+}
 .my-col {
   border:1px solid red
 }
