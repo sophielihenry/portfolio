@@ -1,4 +1,27 @@
+/* layouts and containers */
 .pageContainer {
   display: flex;
   justify-content: space-evenly;
+  width: 75vw;
+  margin: auto;
+  align-items: center;
+}
+
+/* video */
+video {
+  height:100vh;
+}
+
+/* link to heroku */
+
+a {
+  color: mediumturquoise;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: turquoise;
+  text-decoration: none;
+  background-color: transparent;
 }
