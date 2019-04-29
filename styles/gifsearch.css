@@ -1,4 +1,4 @@
-.gifContainer {
+.gifWrapper {
   width: 90vw;
   margin: auto;
 }
@@ -14,11 +14,11 @@
 .gifVideoContainer {
   display: flex;
   justify-content: center;
-  margin-top: -26px;
+  height:100vh;
 }
 
 .gifLaptopMockup {
   z-index: -50000;
-  height: 93vh;
-  width: 87vw;
+  height: 86vh;
+  width: 100vw;
 }
