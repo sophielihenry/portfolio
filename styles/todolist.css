@@ -8,8 +8,8 @@
 }
 
 .todoDescriptionContainer {
-  width: 32vw;
-  padding-right: 10%;
+  max-width: 444px;
+  padding-left: 25%;
 }
 
 .todoDescriptionContainer h4 {
