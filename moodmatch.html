@@ -7,20 +7,35 @@
       <link rel="stylesheet" href="styles/styles.css" type="text/css" media="screen">
   </head>
 <body style="font-family: helvetica; color: darkslategray; font-weight: lighter";>
+    <header>
+          <p>Sophie Li Henry</p>
+        <nav>
+          <p class="link">Work</p>
+          <p class="link">About</p>
+          <p class="link">Contact</p>
+        </nav>
+      </header>
   <section>
-  <div class="descriptionContainer">
-    <h4>Mood Match</h4>
-    <h6>Ruby on Rails, HTML5, SASS, SQL, Bootstrap 4, deployed to Heroku</h6>
-    <a href="http://moodmatch.herokuapp.com"  target="_blank">See it live: http://moodmatch.herokuapp.com</a>
-      <p>
-        Mood Match is a website built on Ruby on Rails that enables users to create and edit custom made cocktails.<br> One of the problems I encountered was the decision to use a video background. On desktop, this added a dynamic aesthetic ... however this was hard to do on mobile view. Therefore, I decided to change the image on background.
-      </p>
-    </div>
-  </section>
-   <section>
-      <div class="videoContainer">
-        <video src="./mockups/moodmatchiphonecrop.mp4" type="video/mp4" autoplay muted loop></video>
+
+  <div class="moodmatchContainer">
+    <section>
+      <div class="moodmatchVideoContainer">
+        <video src="./mockups/moodmatchiphonecrop.mp4" type="video/mp4" autoplay muted loop class="moodmatchVideo"></video>
       </div>
     </section>
+    <section>
+      <div class="moodmatchDescriptionContainer">
+         <h4>Mood Match</h4>
+    <h6>Ruby on Rails, HTML5, SASS, SQL, Bootstrap 4, deployed to Heroku</h6>
+    <a href="http://moodmatch.herokuapp.com"  target="_blank">See it live:
+          <br>
+          <span>http://moodmatch.herokuapp.com</span></a>
+        <br>
+        <br>
+        <p> Mood Match is a website built on Ruby on Rails that enables users to create and edit custom made cocktails.<br> One of the problems I encountered was the decision to use a video background. On desktop, this added a dynamic aesthetic ... however this was hard to do on mobile view. Therefore, I decided to change the image on background.
+        </p>
+      </div>
+    </section>
+  </div>
 
 </body>
