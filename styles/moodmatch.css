@@ -2,13 +2,12 @@
 .moodmatchContainer {
   display: flex;
   justify-content: center;
-  width: 75vw;
+  width: 60vw;
   margin: auto;
   align-items: center;
 }
 
 .moodmatchDescriptionContainer {
-  max-width: 444px;
   padding-left: 25%;
 }
 
@@ -16,7 +15,22 @@
   font-weight:bold;
 }
 
+.moodmatchDescriptionContainer p {
+  font-size: .9rem;
+}
+
+.moodmatchDescriptionContainer {
+  padding-left: 25%;
+}
+
 /* video */
-.moodmatchVideo {
+.moodmatchiphonecrop {
   height:87vh;
+}
+
+.moodmatchVideoContainer {
+  display: flex;
+  justify-content: center;
+  height:100vh;
+  align-items: center;
 }
