@@ -16,6 +16,10 @@
   font-weight:bold;
 }
 
+.todoDescriptionContainer p {
+  font-size: .9rem;
+}
+
 /* video */
 .todoVideo {
   height:87vh;
