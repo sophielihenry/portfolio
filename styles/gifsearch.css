@@ -4,21 +4,27 @@
 }
 
 .gifDescriptionContainer {
-  height:100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 .gifMainSection {
   margin-top: 0;
 }
 
+/* MOCKUPS */
+.gifLaptopMockup {
+  z-index: -50000;
+  height: 86vh;
+  width: 100vw;
+}
 .gifVideoContainer {
   display: flex;
   justify-content: center;
   height:100vh;
 }
 
-.gifLaptopMockup {
-  z-index: -50000;
-  height: 86vh;
-  width: 100vw;
+.gifPhoneMockup {
+  height: 75vh;
 }
