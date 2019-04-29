@@ -1,14 +1,14 @@
 /* layouts and containers */
-.pageContainer {
+.todoContainer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 75vw;
   margin: auto;
   align-items: center;
 }
 
 /* video */
-video {
+.todoVideo {
   height:100vh;
 }
 
@@ -23,4 +23,16 @@ a:hover {
   color: turquoise;
   text-decoration: none;
   background-color: transparent;
+}
+
+
+.todoDescriptionContainer {
+      /* flex: 0 0 50%; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 34vw;
+    /* margin: auto; */
+    /* justify-content: center; */
+    /* margin: -11%; */
+    padding-right: 5%;
 }
