@@ -1,8 +1,10 @@
 @import "todolist.css";
+@import "gifsearch.css";
+
 
 /* NAME */
   header h1 {
-  font-size: 40px;
+  font-size: 20px;
   font-weight: normal;
 }
 
@@ -22,6 +24,8 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 36px;
+  width: 90vw;
+  margin: auto;
 }
 
 /* MAIN SECTION */
@@ -30,10 +34,10 @@
   }
 
 /* container of index page */
-.wrapper {
+/*.wrapper {
   width: 90vw;
   margin: auto;
-}
+}*/
 
 /* NAV BAR  */
   nav {
