@@ -19,18 +19,14 @@
   font-size: .9rem;
 }
 
-.moodmatchDescriptionContainer {
-  padding-left: 25%;
-}
-
 /* video */
-.moodmatchiphonecrop {
-  height:87vh;
-}
-
 .moodmatchVideoContainer {
   display: flex;
   justify-content: center;
-  height:100vh;
+  height: 87vh;
   align-items: center;
+}
+
+.moodmatchiphonecrop {
+  height:87vh;
 }
