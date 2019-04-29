@@ -6,13 +6,12 @@
 .gifContainer {
   display: flex;
   justify-content: center;
-  width: 75vw;
+  width: 60vw;
   margin: auto;
   align-items: center;
 }
 
 .gifDescriptionContainer {
-    max-width: 444px;
   padding-left: 25%;
 }
 
