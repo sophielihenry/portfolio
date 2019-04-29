@@ -23,7 +23,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 36px;
+  padding-top: 3%;
   width: 90vw;
   margin: auto;
   font-weight: bold;
@@ -35,10 +35,10 @@
   }
 
 /* container of index page */
-/*.wrapper {
+.wrapper {
   width: 90vw;
   margin: auto;
-}*/
+}
 
 /* NAV BAR  */
   nav {

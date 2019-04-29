@@ -4,7 +4,7 @@
 }
 
 .gifDescriptionContainer {
-  height:80vh;
+  height:100vh;
 }
 
 .gifMainSection {
@@ -20,5 +20,5 @@
 .gifLaptopMockup {
   z-index: -50000;
   height: 93vh;
-  width: 100vw;
+  width: 87vw;
 }
