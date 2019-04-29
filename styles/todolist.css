@@ -7,9 +7,18 @@
   align-items: center;
 }
 
+.todoDescriptionContainer {
+  width: 34vw;
+  padding-right: 5%;
+}
+
+.todoDescriptionContainer h4 {
+  font-weight:bold;
+}
+
 /* video */
 .todoVideo {
-  height:100vh;
+  height:87vh;
 }
 
 /* link to heroku */
@@ -23,16 +32,4 @@ a:hover {
   color: turquoise;
   text-decoration: none;
   background-color: transparent;
-}
-
-
-.todoDescriptionContainer {
-      /* flex: 0 0 50%; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    width: 34vw;
-    /* margin: auto; */
-    /* justify-content: center; */
-    /* margin: -11%; */
-    padding-right: 5%;
 }
