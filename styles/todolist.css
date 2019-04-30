@@ -24,13 +24,13 @@
 
 /* link to heroku */
 a {
-  color: mediumturquoise;
+  color: black;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: turquoise;
+  color: black;
   text-decoration: none;
   background-color: transparent;
 }
