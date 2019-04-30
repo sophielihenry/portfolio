@@ -1,0 +1,14 @@
+ .skatecityVideoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.skatecitypresentation {
+  height: 86vh;
+  width: 100vw;
+}
+
+.skatecityContainer {
+  height:100vh;
+}

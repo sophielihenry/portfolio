@@ -7,6 +7,7 @@
       <link rel="stylesheet" href="styles/styles.css" type="text/css" media="screen">
   </head>
 <body style="font-family: helvetica; color: darkslategray; font-weight: lighter";>
+    <div class="skatecityContainer">
      <header>
           <p>Sophie Li Henry</p>
         <nav>
@@ -16,37 +17,45 @@
         </nav>
       </header>
 
-    <div class="skatecityContainer">
     <section>
       <div class="skatecityVideoContainer">
-        <video src="./mockups/skatecitypresentation.mp4" type="video/mp4" controls  class="skatecitypresentation"></video>
+        <video src="./mockups/skatecitypresentation1.mp4" type="video/mp4" controls  class="skatecitypresentation"></video>
       </div>
       </section>
 
-      <section>
-        <div class="skatecityDescriptionContainer">
-          <h4>SkateCity</h4>
-          <h6>ReactJS, Giphy API, HTML5, Sass, Heroku</h6>
-          <a href="http://kensaku-gif.herokuapp.com"  target="_blank">See it live: http://kensaku-gif.herokuapp.com.</a>
-          <br>
-          <br>
-          This app was built using Create React App that calls giphy API.
-          <br>
-          Users can search for, delete and select gifs.
-          <p>
-          <br>
-          I created Kensaku to garner more experience with React JS and with calling an API. I added on delete buttons as an extra feature so users could delete the gifs they did not like. The load time of the app is quite slow. In future, I would make sure that this .. has the necessary traffic and network/traffic to make sure it loads fast. As it currently relys on Heroku dynos.
-          <br>
-          <br>
-          One of the UI challenges I had was making sure the app design was responsive in desktop (see below) and mobile format. I used mixins and media queries to achieve this. I also adjusted the CSS so it was compatible for safari and mozilla browsers.
-          <br>
-          <br>
-          scroll down ↓
-          </p>
-        </div>
-      </section>
-    </div>
 
 
 
-  </body>
+      <div class="skatecityContainer">
+    <section>
+      <div class="skatecityIphoneContainer">
+        <video src="./mockups/skatecitynewUImockup.mp4" type="video/mp4" autoplay muted loop class="skatecityIphone"></video>
+      </div>
+    </section>
+    <section>
+      <div class="skatecityeDescriptionContainer">
+        <h4>Skate City</h4>
+        <h6>JavaScript, Ruby on Rails, HTML5, CSS3, WeChat</h6>
+       <!--  <a href="http://daily-todo-list.herokuapp.com/index.html"  target="_blank">See it live:
+          <br>
+          <span>http://daily-todo-list.herokuapp.com/index.html</span></a>
+        <br> -->
+        <br>
+         A basic todo list created with vanilla JS and minimalist design.
+         <br>
+           Users can discover, create and share skatespots with their WeChat contacts.
+        <p>
+          <br>
+          I created this simple app to consolidate my knowledge of JavaScript. I had also created a toggleAll function which would have toggled all todos completed. However, when it came to the UI design, I chose to leave this feature out as I preferred a clean and minimal input bar.
+          <br>
+          <br>
+          I had experimented with colour for the icons, however I wanted the todo list to look like a real notebook so I ended up sticking with a monochromatic colour scheme. I also added a bottom box shadow to the todo list container to resemble stacked paper.
+        </p>
+      </div>
+    </section>
+  </div>
+</body>
+
+
+
+
