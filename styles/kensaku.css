@@ -4,12 +4,13 @@
 
 .pageContainer {
       width: 90vw;
+      padding-top:6%;
     margin: auto;
 }
 
 
 
-.descriptionContainer h4 {
+.pageContainer h1 {
   font-weight: lighter;
     font-size: 3rem;
 }
@@ -29,7 +30,20 @@
 }
 
 
+.descriptionContainer {
+      display: grid;
 
+    padding-bottom:5%;
+    padding-top:2%;
+    font-size:.9rem;
 
+        grid-gap: 2em;
+    grid-template: auto/repeat(3,minmax(0,1fr));
+}
 
+}
+
+/*.descriptionContainer p {
+  font-size:.9rem;
+}*/
 
