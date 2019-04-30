@@ -1,49 +1,29 @@
-
-
-
-
 .pageContainer {
-      width: 90vw;
-      padding-top:6%;
-    margin: auto;
+  width: 90vw;
+  padding-top:6%;
+  margin: auto;
 }
-
-
 
 .pageContainer h1 {
   font-weight: lighter;
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .mockupContainer {
   display:flex;
-/*  justify-content: space-between;
-*/  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
-
-
 
 .mockup {
   height:85vh;
-
-    margin-right: 20px;
+  margin-right: 20px;
 }
-
 
 .descriptionContainer {
-      display: grid;
-
-    padding-bottom:5%;
-    padding-top:2%;
-    font-size:.9rem;
-
-        grid-gap: 2em;
-    grid-template: auto/repeat(3,minmax(0,1fr));
-}
-
-}
-
-/*.descriptionContainer p {
+  display: grid;
+  padding-bottom:1%;
+  padding-top:2%;
   font-size:.9rem;
-}*/
-
+  grid-gap: 2em;
+  grid-template: auto/repeat(3,minmax(0,1fr));
+}
