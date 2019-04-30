@@ -14,12 +14,12 @@
 }
 
 .skatecityContainer1 {
-  display: flex;
-  justify-content: center;
-  width: 75vw;
-  margin: auto;
-  align-items: center;
-  height:100vh;
+    display: flex;
+    justify-content: center;
+    width: 75vw;
+    margin: auto;
+    /* align-items: center; */
+    height: 100vh;
 }
 
 .skatecityDescriptionContainer {
@@ -28,5 +28,13 @@
 
 
 .skatecityIphone {
+  height:87vh;
+}
+
+.skatecityDescriptionContainer p {
+  font-size: .9rem;
+}
+
+.skatecityIphoneContainer {
   height:87vh;
 }
