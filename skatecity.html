@@ -6,15 +6,47 @@
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
       <link rel="stylesheet" href="styles/styles.css" type="text/css" media="screen">
   </head>
-
 <body style="font-family: helvetica; color: darkslategray; font-weight: lighter";>
- <section>
-    <h4>Mood Match</h4>
-    <h6>Ruby on Rails, HTML5, SASS ,SQL ,deployed to Heroku</h6>
-  </section>
-  <section>
-    <div class="projectDescription">
-      <p>describe</p>
+     <header>
+          <p>Sophie Li Henry</p>
+        <nav>
+          <p class="link">Work</p>
+          <p class="link">About</p>
+          <p class="link">Contact</p>
+        </nav>
+      </header>
+
+    <div class="skatecityContainer">
+    <section>
+      <div class="skatecityVideoContainer">
+        <video src="./mockups/skatecitypresentation.mp4" type="video/mp4" controls  class="skatecitypresentation"></video>
+      </div>
+      </section>
+
+      <section>
+        <div class="skatecityDescriptionContainer">
+          <h4>SkateCity</h4>
+          <h6>ReactJS, Giphy API, HTML5, Sass, Heroku</h6>
+          <a href="http://kensaku-gif.herokuapp.com"  target="_blank">See it live: http://kensaku-gif.herokuapp.com.</a>
+          <br>
+          <br>
+          This app was built using Create React App that calls giphy API.
+          <br>
+          Users can search for, delete and select gifs.
+          <p>
+          <br>
+          I created Kensaku to garner more experience with React JS and with calling an API. I added on delete buttons as an extra feature so users could delete the gifs they did not like. The load time of the app is quite slow. In future, I would make sure that this .. has the necessary traffic and network/traffic to make sure it loads fast. As it currently relys on Heroku dynos.
+          <br>
+          <br>
+          One of the UI challenges I had was making sure the app design was responsive in desktop (see below) and mobile format. I used mixins and media queries to achieve this. I also adjusted the CSS so it was compatible for safari and mozilla browsers.
+          <br>
+          <br>
+          scroll down ↓
+          </p>
+        </div>
+      </section>
     </div>
-  </section>
-</body>
+
+
+
+  </body>
