@@ -1,5 +1,5 @@
 @import "todolist.css";
-@import "gifsearch.css";
+@import "kensaku.css";
 @import "moodmatch.css";
 @import "skatecity.css";
 
@@ -74,4 +74,44 @@
 .my-col {
   border:1px solid red
 }
+
+
+
+.projectSCContainer {
+      display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.projectSCvideo {
+      height: 63vh;
+}
+
+
+.skatecityPicContainer {
+      display: flex;
+    justify-content: center;
+}
+
+.skatecitypic {
+      height: 371px;
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
