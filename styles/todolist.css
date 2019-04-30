@@ -10,16 +10,13 @@
 .todoDescriptionContainer {
   max-width: 444px;
   padding-left: 25%;
-}
-
-.todoDescriptionContainer h4 {
-  font-weight:bold;
-}
-
-.todoDescriptionContainer p {
   font-size: .9rem;
 }
 
+.todoDescriptionContainer h1 {
+  font-weight:lighter;
+  font-size:3rem;
+}
 /* video */
 .todoVideo {
   height:87vh;
