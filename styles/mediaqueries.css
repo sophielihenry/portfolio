@@ -32,6 +32,26 @@
   }
 
   .phone .mockup {
-  margin-left: 0px;
+    margin-left: 0px;
+  }
+
+/* TODO LIST */
+  .todoContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+    margin: auto;
+    margin-top:50px;
+  }
+
+  .todoVideo {
+    height: 60vh;
+  }
+
+  .todoDescriptionContainer {
+    padding-left: 0;
+    margin-top: 50px;
+    margin-bottom: 40px;
   }
 }
