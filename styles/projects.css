@@ -1,0 +1,42 @@
+/* LAYOUT OF PROJECTS ON INDIVIDUAL PAGE */
+.pageContainer {
+  width: 90vw;
+  padding-top:6%;
+  margin: auto;
+}
+
+.pageContainer h1 {
+  font-weight: lighter;
+  font-size: 3rem;
+}
+
+.mockupContainer {
+  display:flex;
+  margin-bottom: 2%;
+}
+
+.mockup {
+  height:85vh;
+  margin-right: 20px;
+}
+
+.descriptionContainer {
+  display: grid;
+  padding-bottom:1%;
+  padding-top:2%;
+  font-size:.9rem;
+  grid-gap: 2em;
+  grid-template: auto/repeat(3,minmax(0,1fr));
+}
+
+/* LAYOUT OF PROJECTS ON INDEX PAGE */
+.projectWrapper {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  border: 28px solid #f3f3f3f3;
+}
+
+.projectScreenshot {
+  width:100%;
+}

@@ -1,8 +1,7 @@
 @import "todolist.css";
-@import "kensaku.css";
+@import "projects.css";
 @import "moodmatch.css";
 @import "skatecity.css";
-
 
 /* NAME */
   header h1 {
@@ -12,9 +11,13 @@
 
 /* INTRO SECTION */
 .description p {
-      font-size: 19px;
-    width: 55vw;
-    font-weight: lighter;
+  font-size: 19px;
+  width: 55vw;
+  font-weight: lighter;
+}
+
+.description span {
+  font-weight: normal;
 }
 
 /* HEADER */
@@ -69,18 +72,15 @@
   text-decoration: none;
 }
 
+
+
+
 .project {
   padding-right: 10px;
 }
-/*.my-col {
-  border:1px solid red
-}
-*/
 
-
-.projectSCContainer {
+/*.projectSCContainer {
       display: flex;
-    /* align-items: center; */
     justify-content: center;
 }
 
@@ -99,15 +99,7 @@
     width: 500px;
 }
 
-
-
-
-
-
-.description span {
-  font-weight: normal;
-}
-
+*/
 
 
 
