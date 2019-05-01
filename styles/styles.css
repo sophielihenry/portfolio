@@ -55,6 +55,18 @@ html {
   margin-right:36px;
 }
 
+a {
+  color: #2f2f2f;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color:#b78497;
+  text-decoration: none;
+  background-color: transparent;
+}
+
 /* PROJECT SECTION */
 .container {
   margin-right: 0;
