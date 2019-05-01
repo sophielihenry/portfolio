@@ -13,4 +13,8 @@
   .navbarLink {
     margin-right: 8px;
   }
+
+  .descriptionContainer {
+    grid-template:none;
+  }
 }
