@@ -20,7 +20,9 @@ html {
 }
 
 .introduction span {
-  font-weight: normal;
+  background-color: #b78497;
+  color: white;
+  opacity: .65;
 }
 
 /* HEADER */

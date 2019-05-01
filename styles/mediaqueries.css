@@ -46,12 +46,13 @@
   }
 
   .todoVideo {
-    height: 60vh;
+    height: 76vh;
   }
 
   .todoDescriptionContainer {
     padding-left: 0;
     margin-top: 50px;
     margin-bottom: 40px;
+    text-align:center;
   }
 }
