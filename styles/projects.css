@@ -10,6 +10,7 @@
   font-size: 3rem;
 }
 
+/* project description */
 .descriptionContainer {
   display: grid;
   padding-bottom:1%;
@@ -19,30 +20,23 @@
   grid-template: auto/repeat(3,minmax(0,1fr));
 }
 
-/* MOCK UP CONTAINERS */
-/*.mockupContainer {
-  display:flex;
-  margin-bottom: 2%;
+.projectInfo {
+  margin-top:40px;
+  font-size:1rem;
 }
-*/
 
+/* MOCK UP CONTAINERS */
 .mockupContainer {
   padding-left:0;
   margin-bottom: 30px;
 }
 .mockup {
-  height:85vh;
- /* margin-right: 20px;*/
+  max-height:85vh;
 }
 
 .extrapaddingScreenshot {
   padding-left: 15px;
   padding-top: 0px;
-}
-
-.projectInfo {
-  margin-top:40px;
-  font-size:1rem;
 }
 
 /* mood match extra screenshot  */
