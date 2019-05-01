@@ -28,10 +28,16 @@
 
 .mockupContainer {
   padding-left:0;
+  margin-bottom: 30px;
 }
 .mockup {
   height:85vh;
  /* margin-right: 20px;*/
+}
+
+.extrapaddingScreenshot {
+  padding-left: 15px;
+  padding-top: 1px;
 }
 
 /* mood match extra screenshot  */
