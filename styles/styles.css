@@ -95,30 +95,18 @@ footer p {
 footer {
   margin-top: 100px;
 }
-/*.projectSCContainer {
-      display: flex;
-    justify-content: center;
+
+
+
+.moodmatchScreenshotContainer {
+  border: 58px solid #f3f3f3f3;
+  margin-bottom:50px;
 }
 
-.projectSCvideo {
-      height: 63vh;
+.moodmatchScreenshot {
+  width:100%;
+  height:100%;
 }
-
-
-.skatecityPicContainer {
-      display: flex;
-    justify-content: center;
-}
-
-.skatecitypic {
-      height: 371px;
-    width: 500px;
-}
-
-*/
-
-
-
 
 
 
