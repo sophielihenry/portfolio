@@ -80,12 +80,12 @@
 }
 
 
-/*.projectWrapper::hover {
-      transition: all .2s ease;
-    transform: translateY(0);
+.projectWrapper:hover {
+  transition: all .5s ease;
+  transform: translate(0, -10px);
 }
 
-*/
+
 /* footer */
 footer p {
   font-size: .75rem;
