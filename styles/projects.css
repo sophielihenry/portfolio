@@ -1,4 +1,4 @@
-/* LAYOUT OF PROJECTS ON INDIVIDUAL PAGE */
+/* LAYOUT OF PROJECTS CONTAINERS ON INDIVIDUAL PAGE */
 .pageContainer {
   width: 90vw;
   padding-top:6%;
@@ -10,6 +10,16 @@
   font-size: 3rem;
 }
 
+.descriptionContainer {
+  display: grid;
+  padding-bottom:1%;
+  padding-top:2%;
+  font-size:.9rem;
+  grid-gap: 2em;
+  grid-template: auto/repeat(3,minmax(0,1fr));
+}
+
+/* MOCK UP CONTAINERS */
 .mockupContainer {
   display:flex;
   margin-bottom: 2%;
@@ -20,24 +30,19 @@
   margin-right: 20px;
 }
 
-.descriptionContainer {
-  display: grid;
-  padding-bottom:1%;
-  padding-top:2%;
-  font-size:.9rem;
-  grid-gap: 2em;
-  grid-template: auto/repeat(3,minmax(0,1fr));
+/* mood match extra screenshot  */
+.moodmatchScreenshotContainer {
+  border: 58px solid #f3f3f3f3;
+  margin-bottom:50px;
 }
 
-/* LAYOUT OF PROJECTS ON INDEX PAGE */
-.projectWrapper {
-  display: flex;
-  justify-content: center;
-  border: 28px solid #f3f3f3f3;
-  height:79%;
-}
-
-.projectScreenshot {
+.moodmatchScreenshot {
   width:100%;
   height:100%;
+}
+
+/* skate city border adjustment  */
+.skatecityBorder {
+  border: 27px solid #f3f3f3f3;
+  height:65vh;
 }

@@ -1,7 +1,9 @@
 @import "todolist.css";
 @import "projects.css";
-@import "moodmatch.css";
-@import "skatecity.css";
+
+html {
+  scroll-behavior: smooth;
+}
 
 /* NAME */
   header h1 {
@@ -10,20 +12,19 @@
 }
 
 /* INTRO SECTION */
-.description p {
+.introduction p {
   font-size: 19px;
   width: 55vw;
   font-weight: lighter;
 }
 
-.description span {
+.introduction span {
   font-weight: normal;
 }
 
 /* HEADER */
  header {
   width: 100%;
-  /* position: fixed; */
   z-index: 10;
   display: flex;
   justify-content: space-between;
@@ -50,11 +51,11 @@
   display:flex;
 }
 
-.link {
+.navbarLink {
   margin-right:36px;
 }
 
-/* work section grid */
+/* PROJECT SECTION */
 .container {
   margin-right: 0;
   margin-left: 0;
@@ -72,23 +73,30 @@
   text-decoration: none;
 }
 
-
-
-
-.project {
-  padding-right: 10px;
-}
-
-
+/* LAYOUT OF PROJECTS ON INDEX PAGE */
 .projectWrapper:hover {
   transition: all .5s ease;
   transform: translate(0, -10px);
 }
 
+.project {
+  padding-right: 10px;
+}
 .project p {
   opacity: .6;
 }
 
+.projectWrapper {
+  display: flex;
+  justify-content: center;
+  border: 28px solid #f3f3f3f3;
+  height:79%;
+}
+
+.projectScreenshot {
+  width:100%;
+  height:100%;
+}
 
 /* footer */
 footer p {
@@ -99,22 +107,3 @@ footer p {
 footer {
   margin-top: 100px;
 }
-
-
-
-.moodmatchScreenshotContainer {
-  border: 58px solid #f3f3f3f3;
-  margin-bottom:50px;
-}
-
-.moodmatchScreenshot {
-  width:100%;
-  height:100%;
-}
-
-
-
-
-
-
-
