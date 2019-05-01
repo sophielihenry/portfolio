@@ -85,6 +85,10 @@
   transform: translate(0, -10px);
 }
 
+.project p {
+  opacity: .6;
+}
+
 
 /* footer */
 footer p {
