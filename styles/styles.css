@@ -79,6 +79,18 @@
   padding-right: 10px;
 }
 
+
+
+
+/* footer */
+footer p {
+  font-size: .75rem;
+  text-align: center;
+}
+
+footer {
+  margin-top: 100px;
+}
 /*.projectSCContainer {
       display: flex;
     justify-content: center;
