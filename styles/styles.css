@@ -1,5 +1,6 @@
 @import "todolist.css";
 @import "projects.css";
+@import "mediaqueries.css";
 
 html {
   scroll-behavior: smooth;
@@ -52,7 +53,7 @@ html {
 }
 
 .navbarLink {
-  margin-right:36px;
+  margin-right:26px;
 }
 
 a {
