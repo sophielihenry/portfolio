@@ -39,6 +39,10 @@
   padding-top: 0px;
 }
 
+.phone .mockup {
+  margin-left: 5px;
+}
+
 /* mood match extra screenshot  */
 .moodmatchScreenshotContainer {
   border: 58px solid #f3f3f3f3;

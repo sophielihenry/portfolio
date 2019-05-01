@@ -3,6 +3,7 @@
   /* For mobile phones: */
   .project {
     margin-bottom: 50px;
+    margin-top:8px;
   }
 
   .introduction p {
@@ -16,5 +17,21 @@
 
   .descriptionContainer {
     grid-template:none;
+  }
+
+  .moodmatchScreenshotContainer {
+    border: 20px solid #f3f3f3f3;
+  }
+
+  .mockup {
+    width:100vw;
+  }
+
+  .moodmatchScreenshot {
+    width: 85vw;;
+  }
+
+  .phone .mockup {
+  margin-left: 0px;
   }
 }
