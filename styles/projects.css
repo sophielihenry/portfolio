@@ -20,14 +20,18 @@
 }
 
 /* MOCK UP CONTAINERS */
-.mockupContainer {
+/*.mockupContainer {
   display:flex;
   margin-bottom: 2%;
 }
+*/
 
+.mockupContainer {
+  padding-left:0;
+}
 .mockup {
   height:85vh;
-  margin-right: 20px;
+ /* margin-right: 20px;*/
 }
 
 /* mood match extra screenshot  */
