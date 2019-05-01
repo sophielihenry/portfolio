@@ -15,7 +15,6 @@ html {
 /* INTRO SECTION */
 .introduction p {
   font-size: 19px;
-  width: 55vw;
   font-weight: lighter;
 }
 
@@ -23,6 +22,14 @@ html {
   background-color: #b78497;
   color: white;
   opacity: .65;
+}
+
+.introduction h1 {
+  font-weight:lighter;
+}
+
+.introduction {
+  width:42vw;
 }
 
 /* HEADER */
@@ -40,7 +47,7 @@ html {
 
 /* MAIN SECTION */
   main {
-    margin-top: 55px;
+    margin-top: 132px;
   }
 
 /* container of index page */
@@ -80,6 +87,7 @@ a:hover {
   margin-right: 0;
   margin-left: 0;
   margin-top: 66px;
+  padding-left:0;
 }
 .workSection h2 {
   font-size: 1.2rem;
