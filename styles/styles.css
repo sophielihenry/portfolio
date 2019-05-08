@@ -72,15 +72,18 @@ a {
 }
 
 a:hover {
-  color:#b78497;
+  color: #2f2f2f;
   text-decoration: none;
   background-color: transparent;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-bottom: 1px solid #b78497;
+  box-shadow: 0px -4px 0px #b78497 inset;
 }
+
 
 /* PROJECT SECTION */
 .container {
