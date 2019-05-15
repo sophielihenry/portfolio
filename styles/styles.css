@@ -2,6 +2,7 @@
 @import "projects.css";
 @import "mediaqueries.css";
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -138,3 +139,118 @@ footer p {
 footer {
   margin-top: 100px;
 }
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .project {
+    margin-bottom: 50px;
+    margin-top:8px;
+  }
+
+  .introduction {
+    width: 90vw;
+    margin: auto;
+  }
+
+  .navbarLink {
+    margin-right: 8px;
+  }
+
+  .descriptionContainer {
+    grid-template:none;
+  }
+
+  .moodmatchScreenshotContainer {
+    border: 20px solid #f3f3f3f3;
+  }
+
+  .mockup {
+    width:100vw;
+  }
+
+  .moodmatchScreenshot {
+    width: 85vw;;
+  }
+
+  .phone .mockup {
+    margin-left: 0px;
+  }
+
+/* TODO LIST */
+  .todoContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+    margin: auto;
+    margin-top:50px;
+  }
+
+  .todoVideo {
+    height: 76vh;
+  }
+
+  .todoDescriptionContainer {
+    padding-left: 0;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align:center;
+  }
+}
+
+
+@media (min-width: 1920px) and (max-width: 2560px)  {
+   .container {
+      max-width: 75vw;
+   }
+
+   header {
+      font-size: 2rem;
+   }
+
+   .workSection h2 {
+      font-size: 2rem;
+   }
+
+   .workSection p {
+      font-size: 1.5rem;
+   }
+
+   .introduction {
+    width: 42vw;
+    }
+
+   .introduction p {
+      font-size: 1.5rem;
+   }
+
+  .introduction h1 {
+      font-size: 4rem;
+  }
+
+  .projectWrapper {
+      border: 50px solid #f3f3f3f3;
+  }
+}
+
+
+
+
+@media (min-width:769px) and (max-width:1024px){
+     .introduction {
+      width: 70vw;
+  }
+}
+
+
+
+
+
+
+
