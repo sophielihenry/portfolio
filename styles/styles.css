@@ -206,9 +206,7 @@ footer {
 
 
 @media (min-width: 1920px) and (max-width: 2560px)  {
-   .container {
-      max-width: 75vw;
-   }
+  /* index page */
 
    header {
       font-size: 2rem;
@@ -237,6 +235,32 @@ footer {
   .projectWrapper {
       border: 50px solid #f3f3f3f3;
   }
+
+/* mood match */
+  .mockupContainer {
+      max-width: 84vw;
+   }
+
+  .descriptionContainer {
+      font-size: 1.6rem;
+  }
+
+  .pageContainer h1 {
+      font-size: 5rem;
+  }
+
+  .projectInfo {
+      font-size: 1.4rem;
+  }
+
+  .moodmatchScreenshotContainer {
+    width:80vw;
+  }
+
+  .extrapaddingScreenshot {
+      padding-top: 60px;
+  }
+
 }
 
 
