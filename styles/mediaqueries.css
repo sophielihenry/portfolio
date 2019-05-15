@@ -1,7 +1,7 @@
 /* MEDIA QUERIES */
-/*@media only screen and (max-width: 768px) {
-*/  /* For mobile phones: */
-/*  .project {
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .project {
     margin-bottom: 50px;
     margin-top:8px;
   }
@@ -33,10 +33,10 @@
 
   .phone .mockup {
     margin-left: 0px;
-  }*/
+  }
 
 /* TODO LIST */
-/*  .todoContainer {
+  .todoContainer {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -55,29 +55,38 @@
     margin-bottom: 40px;
     text-align:center;
   }
-}*/
+}
 
+@media (min-width:769px) and (max-width:1024px){
+     .introduction {
+      width: 70vw !important;
+  }
+}
 
-
-/*@media (min-width: 1920px) and (max-width: 2560px)  {
-   .container {
-      max-width: 75vw;
-   }
+@media (min-width: 1920px) and (max-width: 2560px)  {
+  /* index page */
+  .container {
+    max-width: 80vw;
+  }
 
    header {
       font-size: 2rem;
    }
 
    .workSection h2 {
-      font-size: 2rem !important;
+      font-size: 2.5rem !important;
    }
 
    .workSection p {
-      font-size: 1.5rem;
+      font-size: 1.5rem !important;
    }
 
+   .introduction {
+    width: 42vw;
+    }
+
    .introduction p {
-      font-size: 1.5rem !important;
+      font-size: 1.8rem !important;
    }
 
   .introduction h1 {
@@ -85,11 +94,48 @@
   }
 
   .projectWrapper {
-      border: 50px solid #f3f3f3f3 !important;
+      border: 50px solid #f3f3f3f3;
   }
+
+/* mood match */
+  .mockupContainer {
+      max-width: 84vw;
+   }
+
+  .descriptionContainer {
+      font-size: 1.6rem;
+  }
+
+  .pageContainer h1 {
+      font-size: 5rem;
+  }
+
+  .projectInfo {
+      font-size: 1.4rem;
+  }
+
+  .moodmatchScreenshotContainer {
+    width:80vw;
+  }
+
+  .extrapaddingScreenshot {
+      padding-top: 60px;
+  }
+/* skate city*/
+
+  .skatemockupContainer {
+      max-width: 90vw;
+  }
+
+  .todoDescriptionContainer {
+        max-width: 40vw;
+    font-size: 1.7rem;
+  }
+
+  .todoDescriptionContainer h1 {
+    font-size:5rem;
+  }
+
 }
-
-*/
-
 
 
