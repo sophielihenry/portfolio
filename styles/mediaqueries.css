@@ -56,3 +56,41 @@
     text-align:center;
   }
 }
+
+
+
+@media (min-width: 1920px) and (max-width: 2560px)  {
+   .container {
+      max-width: 75vw;
+   }
+
+   header {
+      font-size: 2rem;
+   }
+
+   .workSection h2 {
+      font-size: 2rem !important;
+   }
+
+   .workSection p {
+      font-size: 1.5rem;
+   }
+
+   .introduction p {
+      font-size: 1.5rem !important;
+   }
+
+  .introduction h1 {
+      font-size: 4rem;
+  }
+
+  .projectWrapper {
+      border: 50px solid #f3f3f3f3 !important;
+  }
+}
+
+
+
+
+
+
