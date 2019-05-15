@@ -208,6 +208,10 @@ footer {
 @media (min-width: 1920px) and (max-width: 2560px)  {
   /* index page */
 
+  .container {
+    max-width: 75vw;
+  }
+
    header {
       font-size: 2rem;
    }
@@ -259,6 +263,11 @@ footer {
 
   .extrapaddingScreenshot {
       padding-top: 60px;
+  }
+/* skate city*/
+
+  .skatemockupContainer {
+      max-width: 90vw;
   }
 
 }
